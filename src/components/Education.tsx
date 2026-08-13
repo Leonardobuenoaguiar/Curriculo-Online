@@ -33,7 +33,7 @@ export default function Education() {
               className="flex flex-col items-center text-center"
             >
               {/* LOGO */}
-              <div className="grid h-14 w-14 shrink-0 place-items-center overflow-hidden rounded-full border-2 border-[var(--accent)] bg-white">
+              <div className="grid h-14 w-14 shrink-0 place-items-center overflow-hidden rounded-full border-2 border-white bg-white">
                 <img
                   src={educationLogos[item.institution]}
                   alt={`Logo ${item.institution}`}
@@ -54,11 +54,6 @@ export default function Education() {
               {/* PERÍODO */}
               <p className="mt-5 text-sm font-bold text-white/80">
                 {item.period}
-              </p>
-
-              {/* STATUS */}
-              <p className="mt-2 max-w-sm text-sm leading-6 text-white/52">
-                {item.status}
               </p>
             </motion.article>
           ))}

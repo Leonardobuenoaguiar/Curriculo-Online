@@ -177,7 +177,10 @@ function ExperienceCard({
 }
 
 export default function Experience() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  /*
+   * null = nenhum card aberto inicialmente.
+   */
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const handleCardToggle = (index: number) => {
     setOpenIndex((current) =>

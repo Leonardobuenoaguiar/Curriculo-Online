@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { profile } from "../data/portfolio";
 
+const linkedinUrl =
+  "https://www.linkedin.com/in/leonardo-bueno-de-aguiar-b8062a212/";
+
 export default function Hero() {
   return (
     <section
@@ -129,7 +132,7 @@ export default function Hero() {
               </a>
 
               <a
-                href={profile.linkedin}
+                href={linkedinUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="rounded-control inline-flex min-h-12 items-center justify-center border border-white/15 px-6 text-sm font-bold text-white transition-transform hover:-translate-y-0.5 hover:bg-white/5"
@@ -316,7 +319,7 @@ export default function Hero() {
             </a>
 
             <a
-              href={profile.linkedin}
+              href={linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-control inline-flex min-h-12 w-[85%] max-w-[320px] items-center justify-center border border-white/15 px-7 text-sm font-bold text-white transition-transform active:scale-[0.98] hover:bg-white/5"
