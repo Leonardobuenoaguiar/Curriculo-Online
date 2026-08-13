@@ -164,7 +164,7 @@ export default function Hero() {
             >
               <span className="relative inline-block">
                 <span className="text-white">
-                  &lt;curriculo
+                  &lt;currículo
                 </span>
 
                 <span className="text-[var(--accent)]">
